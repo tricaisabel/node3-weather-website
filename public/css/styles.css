@@ -1,0 +1,54 @@
+h1{
+    color:white;
+}
+
+img{
+    width:450px;
+}
+
+p{
+    text-align: center;
+    font-size: large;
+}
+
+*{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #9bbcdb;
+}
+
+.menu, form{
+    display:flex;
+    flex-direction: row;
+    margin:0;
+}
+
+.menu a{
+    color:yellow;
+    text-decoration: none;
+}
+
+footer{
+    color:grey;
+    position:absolute;
+    bottom:10%;
+
+}
+
+input{
+    padding:8px;
+    border-width:1px;
+    font-size: medium;
+    border-radius:15px;
+}
+
+button{
+    background-color: yellow;
+    padding:8px;
+    border-width: 0;
+    border-radius:15px;
+    font-size: medium;
+}

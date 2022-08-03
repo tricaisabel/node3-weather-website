@@ -12,7 +12,7 @@ weatherForm.addEventListener("submit",(event)=>{
 
     const location=search.value
 
-    fetch(`http://localhost:3000/weather?address=${location}`).then((response)=>{
+    fetch(`/weather?address=${location}`).then((response)=>{
         response.json().then(({error,location,latitude,longitude,forecast}={})=>{
             if(error){
                 coords.innerText=temperature.innerText=wind.innerText=description.innerText=""

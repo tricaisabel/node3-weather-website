@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node src/app.mjs"
+    "start":"node src/app.mjs",
+    "dev":"npx nodemon src/app.mjs"
   },
   "keywords": [],
   "author": "",
